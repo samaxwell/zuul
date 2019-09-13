@@ -1,5 +1,13 @@
 server:
    port: 5555
+zuul:
+   ignored-services: '*'
+   prefix: /api
+   routes:
+      configserver: /configs/**
+      userservice: /authors/**
+      blogcrud: /blogs/**
+
 eureka:
    instance:
       preferIpAddress: true
