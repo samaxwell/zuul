@@ -1,9 +1,10 @@
 spring:
    application:
-      name: zuulservice
+      name: 'zuulservice'
+
    profiles:
-      active:
-         default
+      active: 'dev'
+
    cloud:
       config:
          enabled: true
