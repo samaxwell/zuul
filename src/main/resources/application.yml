@@ -1,3 +1,5 @@
+message: 'default-message'
+
 server:
    port: 5555
 
